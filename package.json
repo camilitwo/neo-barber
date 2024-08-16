@@ -6,8 +6,7 @@
     "start": "ng serve",
     "build": "ng build --base-href '/neo-barber/'",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test",
-    "serve:ssr:neo-barber": "node dist/neo-barber/server/server.mjs"
+    "test": "ng test"
   },
   "private": true,
   "dependencies": {
