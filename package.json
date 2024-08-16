@@ -4,7 +4,8 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build && npm run postbuild",
+    "postbuild": "echo '/*    /index.html   200' > dist/neo-barber/_redirects",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:neo-barber": "node dist/neo-barber/server/server.mjs"
